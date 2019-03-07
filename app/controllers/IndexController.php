@@ -8,7 +8,7 @@ class IndexController extends ControllerBase
 
         $clues = clues::find();
         $this->view->setVar('clues', $clues);
-        $this->setPageName("Pioneer ESU Activities");
+        $this->setPageName("PiHunt");
     }
 
 }
